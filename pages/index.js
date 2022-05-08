@@ -6,7 +6,7 @@ import Nav from "./components/Nav";
 import Results from "./components/Results";
 
 export default function Home({ results }) {
-  // console.log(results)
+   console.log(results)
   return (
     <div>
       <Head>
