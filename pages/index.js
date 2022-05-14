@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import requests from "../utils/requests";
 import Header from "./components/Header";
 import Nav from "./components/Nav";

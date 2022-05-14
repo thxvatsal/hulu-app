@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import HeaderItem from "./HeaderItem";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 /* Icon imports */
 import {
@@ -11,8 +13,6 @@ import {
   SearchIcon,
   UserIcon,
 } from "@heroicons/react/outline";
-import Link from "next/link";
-import { useRouter } from "next/router";
 
 export default function Header() {
   const router = useRouter()
